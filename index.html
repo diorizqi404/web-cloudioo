@@ -4,13 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloudioo Project</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="/dist/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Hi! 🙋‍♂️ Welcome to Cloudioo Projects</h1>
-        <h2>This website under construction 🚧</h2>
-        <p>Coming soon...🙇‍♂️</p>
-    </header>
+    <div class="w-full my-8">
+        <div class="container flex justify-center ">
+            <div class="flex-col text-center px-4">
+                <h1 class="text-primary text-xl lg:text-3xl font-bold">Hi🙋‍♂️, Welcome to 🌦️Cloudioo Project</h1>
+                <p class="text-base lg:text-lg font-medium text-secondary pt-2">
+                    Cloudioo project is a simple experimental project around cloud computing developed by <a href="https://dioo.my.id" class="text-primary hover:underline underline-offset-2">dev404</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full my-16">
+        <div class="lg:px-32 px-4 flex justify-center flex-col">
+            <div class="mb-4">
+                <h2 class="text-base lg:text-2xl font-semibold font-space-grotesk">Up to now, I have made 2 projects💾. Project details are below.</h2>
+            </div>
+            <div class="flex justify-center flex-wrap">
+							<!-- TABLE 1 -->
+                <div class="w-full lg:max-w-sm lg:mr-8 mb-8 flex rounded-md border border-slate-300">
+                    <div class="w-3 bg-secondary rounded-l-md"></div>
+                    <div class="px-2">
+                        <div class="">
+													<h3 class="text-lg lg:text-xl font-semibold text-secondary">Node 1</h3>
+													<p class="text-base">Status : 🟢 Running</p>
+												</div>
+												<div class="my-3">
+													<p class="text-base">🚀CPU : Intel Core i5-2400 4c4t	</p>
+													<p class="text-base">🛡️ Mobo : Foxconn H61 LGA 1155</p>
+													<p class="text-base">💾 Memory : 2x4GB Dual Channel</p>
+													<p class="text-base">📁 Storage : SSD SATA Apacher 240GB & HDD Seagate 500GB</p>
+													<p class="text-base">🎬 GPU : Msi Nvidia GT 1030 2GB DDR6</p>
+													<p class="text-base">🔌 PSU : Advance 500W</p>
+													<div class="mt-4">
+														<h5 class="text-base font-semibold text-secondary">Additional</h5>
+														<p class="text-base">📀 OS : Proxmox VE 8.0</p>
+														<p class="text-base">📡 Network : Indihome 50Mbps LAN</p>
+														<p class="text-base"></p>
+													</div>
+												</div>
+												<div class="my-3">
+													<p>The server will be shutdown once a week for maintenance ⚒️</p>
+												</div>
+                    </div>
+                </div>
+
+							<!--TABLE 2  -->
+                <div class="w-full lg:max-w-sm lg:mr-8 mb-8 flex rounded-md border border-slate-300">
+                    <div class="w-3 bg-primary rounded-l-md"></div>
+                    <div class="px-2">
+                        <div class="">
+													<h3 class="text-lg lg:text-xl font-semibold text-secondary">VM NAS</h3>
+													<p class="text-base">Status : 🟢 Running</p>
+												</div>
+												<div class="my-3">
+													<p class="text-base">🚀 vCPU : 1 Core</p>
+													<p class="text-base">💾 Memory : 2 GB</p>
+													<p class="text-base">📁 Storage : SSD 1GB (BOOT) & HDD 500GB (Storage)
+													<div class="mt-4">
+														<h5 class="text-base font-semibold text-secondary">⚙️Tech Stack</h5>
+														<p class="text-base">📀 OS : Synology (Xpenology)</p>
+														<p class="text-base">💿 Software : 🐳 Docker</p>
+														<p class="text-base">📡 Network : Cloudflare Tunnel</p>
+													</div>
+												</div>
+												<div class="my-3">
+													<p class="text-base">🔗 Demo : <a href="https://nas.cloudioo.my.id" class="text-blue-500 font-semibold hover:underline underline-offset-2">nas.cloudioo.my.id</a></p>
+													<p class="text-base">👤 Username : Client1</p>
+													<p class="text-base">🔑 Password : Guest_Client000</p>
+												</div>
+                    </div>
+                </div>
+
+							<!--TABLE 3  -->
+                <div class="w-full lg:max-w-sm lg:mr-8 mb-8 flex rounded-md border border-slate-300">
+                    <div class="w-3 bg-primary rounded-l-md"></div>
+                    <div class="px-2">
+                        <div class="">
+													<h3 class="text-lg lg:text-xl font-semibold text-secondary">VM Web Server</h3>
+													<p class="text-base">Status : 🟢 Running</p>
+												</div>
+												<div class="my-3">
+													<p class="text-base">🚀 vCPU : 1 Core</p>
+													<p class="text-base">💾 Memory : 2 GB</p>
+													<p class="text-base">📁 Storage : SSD 32GB
+													<div class="mt-4">
+														<h5 class="text-base font-semibold text-secondary">⚙️Tech Stack</h5>
+														<p class="text-base">📀 OS : Ubuntu Server 22.04 LTS</p>
+														<p class="text-base">💿 Software : NGINX</p>
+														<p class="text-base">📡 Network : Cloudflare Tunnel</p>
+													</div>
+												</div>
+												<div class="my-3">
+													<p class="text-base">Fact : This website is hosted using this VM 😊</p>
+												</div>
+                    </div>
+									</div>
+            </div>
+						<div class="my-4 p-2 backdrop-blur-sm bg-primary/20 rounded-md border border-slate-400">
+							<p class="text-md lg:text-lg">
+								📄 Note : Since it's just a fun project, the server won't be on a full 365/24. It will only be turned on if there are updates or new projects (Gw takut listrik bengkak jirr). You can try to create your own home server by reading the tutorial and troubleshooting below.
+							</p>
+						</div>
+        </div>
+    </div>
+
+		<div class="w-full my-16">
+			<div class="lg:px-32 px-4 mb-8">
+				<h1 class="text-xl font-medium">Tutorial</h1>
+				<p class="text-base text-slate-500">Coming soon.....🙇‍♂️</p>
+			</div>
+			<div class="lg:px-32 px-4">
+				<h1 class="text-xl font-medium">Troubleshooting</h1>
+				<p class="text-base text-slate-500">Coming soon.....🙇‍♂️</p>
+			</div>
+		</div>
+
+		<footer class="mt-16  py-4 border-2 border-t-slate-300 w-full flex justify-center flex-col items-center">
+			<p class="text-secondary text-base font-medium">© 2023 oleh <a href="https://dioo.my.id" class="text-blue-500 hover:underline underline-offset-2">Dio Rizqi</a></p>
+      <p class="text-secondary text-base font-medium flex justify-center flex-wrap">
+        I would really appreciate it if you want <a href="#" class="text-blue-500 hover:underline underline-offset-2">🥳 Donate</a>
+      </p>
+		</footer>
 </body>
 </html>
